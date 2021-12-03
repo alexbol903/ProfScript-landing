@@ -15,14 +15,16 @@ export default {
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'preload',
-        as: 'font',
-        href: 'https://fonts.googleapis.com/css?family=Audiowide|Roboto+Slab|Russo+One',
-      },
-    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
+
+  googleFonts: {
+    preload: true,
+    families: {
+      Audiowide: true,
+      'Roboto+Slab': true,
+      'Russo+One': true,
+    },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -41,6 +43,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/dotenv',
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
