@@ -19,6 +19,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'preload',
+        as: 'font',
         href: 'https://fonts.googleapis.com/css?family=Audiowide|Roboto+Slab|Russo+One',
       },
     ],
