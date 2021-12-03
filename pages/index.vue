@@ -19,7 +19,7 @@
       <div
         class="container h-full flex items-center relative z-10 px-4 md:px-14"
       >
-        <img src="@/assets/img/logo.svg" alt="Логотип" />
+        <img class="w-44 h-7" src="@/assets/img/logo.svg" alt="Логотип" />
       </div>
     </header>
 
