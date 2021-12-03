@@ -107,7 +107,7 @@ interface IPaymentData {
   ymNumber: number;
 }
 
-const SCRIPT_CLOUD_LINK = process.env.SCRIPT_CLOUD_LINK || '';
+const SCRIPT_CLOUD_LINK = process.env.NUXT_ENV_SCRIPT_CLOUD_LINK || '';
 
 export default Vue.extend({
   name: 'TheFormPay',
