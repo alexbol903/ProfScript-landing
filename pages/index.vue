@@ -26,7 +26,7 @@
     <div class="container font-my-secondary text-white px-4">
       <!-- <div class="container-content"> -->
       <h1 class="mt-7 mb-10 text-center text-2xl md:text-3xl xl:text-4xl">
-        {{ contentTitle }}
+        {{ contentTitle }} *
       </h1>
       <div class="w-full h-full flex flex-col justify-center items-center mb-7">
         <TheYoutubeVideo :code="videoCode"></TheYoutubeVideo>
@@ -67,6 +67,7 @@
         <div class="my-10 lg:my-0 lg:mr-auto text-my-gray">
           <p class="text-lg text-center">Все вопросы на почту:</p>
           <p class="text-lg text-center">{{ supportEmail }}</p>
+          <p class="text-xs mt-3 px-2">* Протестированно в порограмме Базис Мебельщик 8-10 версиях</p>
         </div>
         <TheFormPay class="sm:pr-20 lg:mr-4 xl:mr-10"></TheFormPay>
       </div>
