@@ -3,7 +3,7 @@
     <form
       class="flex flex-col sm:flex-row"
       method="POST"
-      action="https://money.yandex.ru/quickpay/confirm.xml"
+      action="https://yoomoney.ru/quickpay/confirm.xml"
     >
       <input type="hidden" name="receiver" :value="paymentData.ymNumber" />
       <input
