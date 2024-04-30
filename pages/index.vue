@@ -67,9 +67,11 @@
         <div class="my-10 lg:my-0 lg:mr-auto text-my-gray">
           <p class="text-lg text-center">Все вопросы на почту:</p>
           <p class="text-lg text-center">{{ supportEmail }}</p>
-          <p class="text-xs mt-3 px-2">* Протестированно в порограмме Базис Мебельщик 8-10 версиях</p>
+          <p class="text-xs mt-3 px-2">
+            * Протестировано в программе Базис Мебельщик 8-10 версиях
+          </p>
         </div>
-        <TheFormPay class="sm:pr-20 lg:mr-4 xl:mr-10"></TheFormPay>
+        <TheDownload class="sm:pr-20 lg:mr-4 xl:mr-10"></TheDownload>
       </div>
     </footer>
   </div>
@@ -78,12 +80,12 @@
 <script lang="ts">
 import Vue from 'vue';
 import TheYoutubeVideo from '@/components/TheYoutubeVideo.vue';
-import TheFormPay from '~/components/TheFormPay.vue';
+import TheDownload from '~/components/TheDownload.vue';
 
 export default Vue.extend({
   name: 'Index',
   components: {
-    TheFormPay,
+    TheDownload,
     TheYoutubeVideo,
   },
   computed: {
